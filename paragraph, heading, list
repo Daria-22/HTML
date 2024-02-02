@@ -1,0 +1,21 @@
+<!-- Set the main heading below -->
+<h1>My favourite films </h1>
+
+<ul>
+	<!-- Create at least 3 items and specify the movie title -->
+	<li>Black mirror series</li>
+    <li>Scrubs</li>
+	<li>Friends</li>
+</ul>
+
+
+<!-- Create short descriptions for the movies -->
+
+<!-- Description for the first movie -->
+<p>Black mirror focuses on technology and how people change with it, for better or for worse. Some episodes make you smile, others make you terrified. How about world where your status depends on other people's likes? How about the episode where tey show your life on Netflix and all people can watch it and you cannot do anything about it?</p>
+
+<!-- Description for the second movie -->
+<p>I love this series. Dive into the world of young doctors, with exams, hormones, patients with a story of their lives. Funny as it is supposed to be a sitcom, but sometimes it will strike you by its drama and philosophy.</p1>
+
+<!-- Description for the third movie -->
+<p>Everybody knows friends! Stories of 6 friends starting their life in New York, with their insecurities, loves and flings, lots of discussion about all of it I wish I could have friends like this! </p>
