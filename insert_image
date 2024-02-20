@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+	<section>
+		<img width="118" height = "100"  src="./images/dog.png" alt="Friendly Dog" />
+      <div>
+        <h2>About Dogs</h2>
+        <p>
+          Discover the loyal companionship and playful spirit of dogs that make
+          them the best friends of humans.
+        </p>
+      </div>
+    </section>
+    <section>
+      <img width="118" height = "100" src="./images/cat.png" alt="Charming Cat" />
+      <div>
+        <h2>About Cats</h2>
+        <p>
+          Experience the mysterious charm and independent nature of cats that
+          have fascinated people for centuries.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
