@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+ 
+  <body>
+    <header>
+      <h1>Welcome to Multimedia</h1>
+      <p>Enjoy the audio and video content below!</p>
+    </header>
+
+    <section>
+      <div>
+        <audio controls autoplay loop volume="0.5">
+  <source src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/code-1/ultimate-html/media+and+tables/just-relax-audio.mp3" type="audio/mp3">
+  <source src="audio.mp3" type="audio/mp3" />
+          Sorry, your browser does not support audio.
+        </audio>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <video controls muted volume="0.5" width="640" height="360" >
+            <source src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/code-1/ultimate-html/media+and+tables/tiger-video.mp4" type="video/mp4">
+            Your browser does not support video.
+      </div>
+    </section>
+  </body>
+  
+</html>
