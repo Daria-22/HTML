@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SkyIsTheLimit</title>
+</head>
+
+<style>
+
+.LogoNameLess{
+    float:left
+}  
+
+.menuButtons {
+    float:right;
+}
+ul{ 
+    list-style-type: none; /*got rid of dot in  the list*/
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 100;
+    display: flex; /*The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.*/
+    justify-content: flex-end; /* Aligns items to the right */
+    padding: 0;
+}
+#greystripe {
+    background-color: darkgray;
+    height: 80px;
+}
+li {
+    margin-right: 20px;
+}    
+#LogoSkyLimit22{
+    height:50px;
+
+}
+.LogoNameLess{
+    padding: 10px;
+}
+
+#section1{
+    background-color: black;
+    height: 700px;
+    
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#HeadingSky{
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 40px;
+    }
+
+#knopka{
+    background-color: rgb(93, 210, 82);
+    height: 70px;
+    width: 240px;
+    color: white;
+    font-size: 30px;
+    border-radius: 8px;
+    display:block;
+    margin:auto
+}
+
+#Loremispsum {
+    color: #faf6f6;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#section2 {
+    background-color: #ffffff;
+    height: 80px;
+    text-align: center;
+}
+
+#ourclients_logos{
+    font-size: 30px;
+}
+#logotable {
+    align-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#image1Logo, #image2Logo, #image3Logo, #image4Logo, #image5Logo {
+    height: 240px;
+    width: 240px;
+    margin: 50px;
+}
+#whoWeAre {
+    float:right;
+    /*background-color: rgb(63, 60, 60);* I commented it as by overflow:hidden I allow the background be the same as contanier*/ 
+    color: #ffffff;
+    font-size: 35px;
+    width: 50%;
+    text-align: left;
+    padding: 30px;
+}
+
+#photoTeam {
+    float: left;
+    /* did not work from styles - width:35%;*/
+}
+
+#containerTeam{
+    background-color: black;
+    clear: both;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+
+#userform{
+    float: left;
+    width:40%;
+    height: 655px;
+    background-color: rgba(90, 173, 91, 0.835);
+    color: #faf6f6;
+}
+#pictureuserform{
+    float: right;
+    width: 60%;
+    height: 655px;
+    padding: 0px;
+}
+#conteineruserform{
+    display: flex;
+}
+
+#sendUserMessage{
+    background-color: rgb(67, 65, 65);
+    width: 600px;
+    height: 50px;
+    border-radius: 8px;
+    color: #faf6f6;
+}
+
+#userform textarea{
+    width: 600px;
+    height: 45px;
+    color: gray;
+    font-size: 15px;
+    font-style: normal;
+}
+
+#userform input{
+    width: 600px;
+    height:45px;
+    color: grey;
+    font-size: large;
+    font-style: normal;
+}
+
+#userform label{
+    text-align: left;
+    font-size: 25px;
+}
+#userform h1{
+    font: 100px;
+}
+
+</style>
+
+<body>
+    <section id="section1">
+      
+    <!--upperPanelMenu-->
+        <div id="greystripe">    
+                <div class="LogoNameLess">
+                    <img src="SkyLimitLogo.png" alt="logoOfSky" id="LogoSkyLimit22">
+                </div>
+                
+            <!--buttons of the menu-->
+                <div class="menuButtons">
+                    <ul >
+                        <li>Home</li>
+                        <li>What</li>
+                        <li>Who</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+        </div>
+
+        <div>
+            <h1 id="HeadingSky">The Sky is The limit</h1>
+            <button id="knopka">Read more</button>
+            <p id="Loremispsum">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus corrupti a cumque reprehenderit! Saepe corrupti adipisci quibusdam excepturi 
+            </p>
+                
+        </div>  
+    </section>
+
+    <section id="section2">
+        <div id="ourclients_logos">
+            <h2>
+                <span style="color:rgba(90, 173, 91, 0.835);">Our</span> 
+                <span style="color:rgb(12, 12, 12);"> Clients</span>
+            </h2>
+
+        </div>
+
+        <div>
+            <table id="logotable">
+                <tr>
+                    <td><img id="image1Logo" src="logo1.png" alt ="Logo with letter T drawn in dots"</td> 
+                    <td><img id="image2Logo" src="logo2.png" alt ="Logo with a sphere with waves and sparkles"</td> 
+                    <td><img id="image3Logo" src="logo3.png" alt ="Logo with a cicle on which letter M is written in cursive"</td> 
+                    <td><img id="image4Logo" src="logo4.png" alt ="Logo with looks like several leaves"</td> 
+                    <td><img id="image5Logo" src="logo5.png" alt ="Logo with sphere looking like a spiral"</td> 
+                </tr>
+            </table>
+        </div>
+
+        <div id="containerTeam">
+
+            <div id="whoWeAre">
+                <h2><span style="color: #4a854bd5;">Who</span>WeAre</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem facilis nostrum obcaecati vero quibusdam quaerat ipsum minus dolorum sint. Expedita perspiciatis ex necessitatibus debitis consequuntur. Ducimus tempora expedita assumenda itaque.
+                </p>
+                <h3 style="font-weight: 100;">
+                    Our Team
+                </h3>
+                <p style="text-decoration: underline";>
+                    Lorem, ipsum dolor.
+                Excepturi, est alias.
+                Repudiandae, facilis fugiat?
+                Enim, modi quod?
+                Laudantium, iste neque?
+                </p>
+            </div>
+
+            <div id="photoTeam">
+                <img src="people.jpg" alt="photo of men and women weaing business clothes" width="855" height="650">
+            </div>
+    </div>
+
+    <div id="conteineruserform">
+    <div id="userform">
+        <h1>Contact Us</h1>
+          <h2>Please use this form to contact us</h2>
+            <label for="Name">Name</label>
+            <br>
+            <br>
+            <input id="Name" type="text" name="Name" value="Enter name"></input>
+            <br>
+            <br>
+
+            <label for="email">Email</label>
+            <br>
+            <br>
+            <input id="email" type="email" name="useremail" value="Enter email"></input>
+            <br>
+            <br>
+
+            <label for id="phonenumber">Phone number</label>
+            <br>
+            <br>
+          
+            <input id="phonenumber" type="tel" name="phonenumber" value="Enter phone" size="10"></input>
+            <br>
+            
+            <br>
+            <label for="textinout">Message</label>
+            <br>
+            <br>
+            <textarea id="textinout"name="textinoutuser" placeholder="Enter message here"></textarea>
+            <br>
+
+            <br>
+            <button id="sendUserMessage">Send</button>   
+            <br>
+    </div>
+
+    <div id="pictureuserform">
+           <img src="writingpen.jpg" alt="black ballpoint pen writing on white paper">
+    </div>
+
+      
+    </div>
+    </section>
+
+
+</body>
+</html>
